@@ -1,0 +1,40 @@
+<!-- <?xml version="1.0" encoding="UTF-8"?> -->
+<svg version="1.1"
+    xmlns="http://www.w3.org/2000/svg" width="432" height="216" viewBox="0 0 432 288">    <!-- 72x48 scale(18) -->
+    <defs>
+        <!-- <pattern id="flag-DE" viewBox="0,0,9,6" width="100%" height="100%">
+            <rect x="0" y="0" width="9" height="2" fill="#000"/>
+            <rect x="0" y="2" width="9" height="2" fill="#F00"/>
+            <rect x="0" y="4" width="9" height="2" fill="#FC0"/>
+        </pattern> -->
+        <linearGradient id="stange">
+            <stop offset="5%" stop-color="hsla(15, 50%, 12%, 1)"/>
+            <stop offset="25%" stop-color="hsla(15, 50%, 30%, 1)"/>
+            <stop offset="50%" stop-color="hsla(15, 50%, 37%, 1)"/>
+            <stop offset="75%" stop-color="hsla(15, 50%, 30%, 1)"/>
+            <stop offset="95%" stop-color="hsla(15, 50%, 12%, 1)"/>
+        </linearGradient>
+    </defs>
+    <g transform="translate(216,108)">        <!-- to the center `(viewBox.width) / 2` -->
+        <g transform="translate(-54,-36) rotate(22.5,54,216)">            <!-- flag is 108x72 -->
+            <g>                <!-- deutsche Flagge -->
+                <path fill="#000" d="M 0 0 q 27 -18, 54 0 t 54 0 v 24 q -27 18, -54 0 t -54 0 Z"/>
+                <path fill="#F00" d="M 0 24 q 27 -18, 54 0 t 54 0 v 24 q -27 18, -54 0 t -54 0 Z"/>
+                <path fill="#FC0" d="M 0 48 q 27 -18, 54 0 t 54 0 v 24 q -27 18, -54 0 t -54 0 Z"/>
+            </g>
+            <g>
+                <path fill="url(#stange)" d="M -6 0 q 3 -1, 6 0 v 216 Z"/>
+            </g>
+        </g>
+        <g transform="translate(-54,-36) rotate(-22.5,54,216)">
+            <g>                <!-- ital. Flagge -->
+                <path fill="#008C45" d="M 0 0 q 18 12, 36 8 v 72 q -18 2, -36 -8 Z"/>
+                <path fill="#F4F5F0" d="M 36 8 Q 45 6, 54 0 Q 63 -6, 72 -8 v 72 q -9 2, -18 8 q -9 6, -18 8 Z"/>
+                <path fill="#CD212A" d="M 72 -8 q 18 -4, 36 8 v 72 q -18 -12, -36 -8 Z"/>
+            </g>
+            <g>
+                <path fill="url(#stange)" d="M 108 0 q 3 -1, 6 0 l -6 216 Z" />
+            </g>
+        </g>
+    </g>
+</svg>
