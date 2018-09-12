@@ -1,6 +1,7 @@
 <!-- <?xml version="1.0" encoding="UTF-8"?> -->
 <svg version="1.1"
-    xmlns="http://www.w3.org/2000/svg" width="432" height="216" viewBox="0 0 432 288">    <!-- 72x48 scale(18) -->
+    xmlns="http://www.w3.org/2000/svg" width="432" height="288" viewBox="0 0 432 288">
+    <!-- 72x48 scale(18) but + 72height to make #stange visible.  -->
     <defs>
         <!-- <pattern id="flag-DE" viewBox="0,0,9,6" width="100%" height="100%">
             <rect x="0" y="0" width="9" height="2" fill="#000"/>
@@ -8,14 +9,15 @@
             <rect x="0" y="4" width="9" height="2" fill="#FC0"/>
         </pattern> -->
         <linearGradient id="stange">
-            <stop offset="5%" stop-color="hsla(15, 50%, 12%, 1)"/>
-            <stop offset="25%" stop-color="hsla(15, 50%, 30%, 1)"/>
-            <stop offset="50%" stop-color="hsla(15, 50%, 37%, 1)"/>
-            <stop offset="75%" stop-color="hsla(15, 50%, 30%, 1)"/>
-            <stop offset="95%" stop-color="hsla(15, 50%, 12%, 1)"/>
+            <stop offset="5%" stop-color="hsl(18, 43%, 10%)"/>
+            <stop offset="25%" stop-color="hsl(18, 43%, 20%)"/>
+            <stop offset="50%" stop-color="hsl(18, 43%, 33%)"/>
+            <stop offset="75%" stop-color="hsl(18, 43%, 20%)"/>
+            <stop offset="95%" stop-color="hsl(18, 43%, 10%)"/>
         </linearGradient>
     </defs>
-    <g transform="translate(216,108)">        <!-- to the center `(viewBox.width) / 2` -->
+    <!-- `id` for importing files ( via <use />) -->
+    <g id="bandiere" transform="translate(216,108)">        <!-- to the center `(viewBox.width) / 2` -->
         <g transform="translate(-54,-36) rotate(22.5,54,216)">            <!-- flag is 108x72 -->
             <g>                <!-- deutsche Flagge -->
                 <path fill="#000" d="M 0 0 q 27 -18, 54 0 t 54 0 v 24 q -27 18, -54 0 t -54 0 Z"/>

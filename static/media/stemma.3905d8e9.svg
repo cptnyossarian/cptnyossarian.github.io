@@ -1,0 +1,76 @@
+<svg version="1.1"
+    xmlns="http://www.w3.org/2000/svg" 
+    xmlns:xlink="http://www.w3.org/1999/xlink" width="432" height="416" viewBox="0 0 432 316">    <!-- height(bandiere.svg) + 200 extra vspace -->
+    <!-- inkscape seems to require the (obsolete) `xlink:href` + above ns-declaration as opposed to simply `href` -->
+    <style>
+    svg {
+        background: hsl(24, 45%, 30%);
+        font-size: 48;
+        font-family: Pristina, Lora, serif;
+    }
+    .text-arco {
+        fill: #000;
+    }
+    .text-arco.chiaro {
+        fill: #FFFFFA;
+    }
+    .text-arco-glow {
+        filter: url(#glow);
+        fill: #3bf;
+    }
+    .stroke-glow {
+        filter: url(#glow);
+        fill: none;
+        stroke: #3bf;
+        stroke-width: 8;
+    }
+    </style>
+    <defs>
+        <path id="arco-sopra" d="M84 183 a 1 1 0 0 1 264 0" />
+        <path id="arco-sotto" d="M84 183 a 1 1 0 0 0 264 0" />
+        <!-- https://www.w3.org/People/Dean/svg/texteffects/index.html -->
+        <filter id="glow" x="-30%" y="-30%" width="160%" height="160%">
+            <feGaussianBlur stdDeviation="4" result="glow" />
+            <feMerge>
+                <feMergeNode in="glow" />
+            </feMerge>
+        </filter>
+        <linearGradient id="stange">
+            <stop offset="5%" stop-color="hsl(18, 43%, 10%)" />
+            <stop offset="25%" stop-color="hsl(18, 43%, 20%)" />
+            <stop offset="50%" stop-color="hsl(18, 43%, 33%)" />
+            <stop offset="75%" stop-color="hsl(18, 43%, 20%)" />
+            <stop offset="95%" stop-color="hsl(18, 43%, 10%)" />
+        </linearGradient>
+    </defs>
+
+    <g id="stemma">
+        <!-- radius: #arco-sopra:width/2+fontsize/2+(some padding) -->
+        <circle cx="50%" cy="183" r="168" fill="none" stroke="black" />
+        <circle cx="50%" cy="183" r="168" class="stroke-glow"/>
+        <!-- M x y : `x`: center - 108/ `y`: +50 for extra space -->
+        <text class="text-arco">
+            <!-- `alignment-baseline` does not seem to work in Firefox: see https://codepen.io/anon/pen/RYgKGX (even w/o `textPath`) -->
+            <!-- ! UPDATE ! that's by design, `dominant-baseline` is what we're after here. -->
+            <textPath xlink:href="#arco-sopra" text-anchor="middle" dominant-baseline="middle" startOffset="50%">
+                Italienisch Lernen
+            </textPath>
+        </text>
+        <text class="text-arco-glow">
+            <textPath xlink:href="#arco-sopra" text-anchor="middle" dominant-baseline="middle" startOffset="50%">
+                Italienisch Lernen
+            </textPath>
+        </text>
+        <text class="text-arco">
+            <textPath xlink:href="#arco-sotto" text-anchor="middle" dominant-baseline="middle" startOffset="50%">
+            Debora Difonzo
+            </textPath>
+        </text>
+        <text class="text-arco-glow">
+            <textPath xlink:href="#arco-sotto" text-anchor="middle" dominant-baseline="middle" startOffset="50%">
+            Debora Difonzo
+            </textPath>
+        </text>
+        <use xlink:href="bandiere.svg#bandiere" y="50" />
+    </g>
+</svg>
