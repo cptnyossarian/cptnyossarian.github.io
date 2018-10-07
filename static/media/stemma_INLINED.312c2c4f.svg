@@ -1,0 +1,98 @@
+<svg version="1.1"
+    xmlns="http://www.w3.org/2000/svg" 
+    xmlns:xlink="http://www.w3.org/1999/xlink" width="432" height="416" viewBox="0 0 432 316">    <!-- height(bandiere.svg) + 200 extra vspace -->
+    <!-- inkscape seems to require the (obsolete) `xlink:href` + above ns-declaration as opposed to simply `href` -->
+    <style>
+    svg {
+        font-size: 48px;
+        font-family: Pristina, Lora, serif;
+    }
+    .text-arco {
+        fill: #000;
+    }
+    .text-arco.chiaro {
+        fill: #FFFFFA;
+    }
+    .text-arco-glow {
+        filter: url(#glow);
+        fill: #3bf;
+    }
+    .stroke-glow {
+        filter: url(#glow);
+        fill: none;
+        stroke: #3bf;
+        stroke-width: 8;
+    }
+    </style>
+    <defs>
+        <path id="arco-sopra" d="M84 133 a 1 1 0 0 1 264 0" />
+        <path id="arco-sotto" d="M84 133 a 1 1 0 0 0 264 0" />
+        <!-- https://www.w3.org/People/Dean/svg/texteffects/index.html -->
+        <filter id="glow" x="-30%" y="-30%" width="160%" height="160%">
+            <feGaussianBlur stdDeviation="4" result="glow" />
+            <feMerge>
+                <feMergeNode in="glow" />
+            </feMerge>
+        </filter>
+        <linearGradient id="stange">
+            <stop offset="5%" stop-color="hsl(18, 43%, 10%)" />
+            <stop offset="25%" stop-color="hsl(18, 43%, 20%)" />
+            <stop offset="50%" stop-color="hsl(18, 43%, 33%)" />
+            <stop offset="75%" stop-color="hsl(18, 43%, 20%)" />
+            <stop offset="95%" stop-color="hsl(18, 43%, 10%)" />
+        </linearGradient>
+    </defs>
+
+    <g id="stemma">
+        <!-- radius: #arco-sopra:width/2+fontsize/2+(some padding) -->
+        <circle cx="50%" cy="133" r="168" fill="none" stroke="black" />
+        <circle cx="50%" cy="133" r="168" class="stroke-glow"/>
+        <!-- M x y : `x`: center - 108/ `y`: +50 for extra space -->
+        <text class="text-arco">
+            <!-- `alignment-baseline` does not seem to work in Firefox: see https://codepen.io/anon/pen/RYgKGX (even w/o `textPath`) -->
+            <!-- ! UPDATE ! that's by design, `dominant-baseline` is what we're after here. -->
+            <textPath xlink:href="#arco-sopra" text-anchor="middle" dominant-baseline="middle" startOffset="50%">
+                Italienisch Lernen
+            </textPath>
+        </text>
+        <text class="text-arco-glow">
+            <textPath xlink:href="#arco-sopra" text-anchor="middle" dominant-baseline="middle" startOffset="50%">
+                Italienisch Lernen
+            </textPath>
+        </text>
+        <text class="text-arco">
+            <textPath xlink:href="#arco-sotto" text-anchor="middle" dominant-baseline="middle" startOffset="50%">
+            Debora Difonzo
+            </textPath>
+        </text>
+        <text class="text-arco-glow">
+            <textPath xlink:href="#arco-sotto" text-anchor="middle" dominant-baseline="middle" startOffset="50%">
+            Debora Difonzo
+            </textPath>
+        </text>
+    <!-- <use xlink:href="bandiere.svg#bandiere" y="50" /> -->
+    <!-- NOTE: inline bandiere.svg; less preferred than the include, but webpack's url loader does not understand urls (href) inside svg attributes -->
+    <g id="bandiere" transform="translate(216,108)">        <!-- to the center `(viewBox.width) / 2` -->
+        <g transform="translate(-54,-36) rotate(22.5,54,216)">            <!-- flag is 108x72 -->
+            <g>                <!-- deutsche Flagge -->
+                <path fill="#000" d="M 0 0 q 27 -18, 54 0 t 54 0 v 24 q -27 18, -54 0 t -54 0 Z"/>
+                <path fill="#F00" d="M 0 24 q 27 -18, 54 0 t 54 0 v 24 q -27 18, -54 0 t -54 0 Z"/>
+                <path fill="#FC0" d="M 0 48 q 27 -18, 54 0 t 54 0 v 24 q -27 18, -54 0 t -54 0 Z"/>
+            </g>
+            <g>
+                <path fill="url(#stange)" d="M -6 0 q 3 -1, 6 0 v 216 Z"/>
+            </g>
+        </g>
+        <g transform="translate(-54,-36) rotate(-22.5,54,216)">
+            <g>                <!-- ital. Flagge -->
+                <path fill="#008C45" d="M 0 0 q 18 12, 36 8 v 72 q -18 2, -36 -8 Z"/>
+                <path fill="#F4F5F0" d="M 36 8 Q 45 6, 54 0 Q 63 -6, 72 -8 v 72 q -9 2, -18 8 q -9 6, -18 8 Z"/>
+                <path fill="#CD212A" d="M 72 -8 q 18 -4, 36 8 v 72 q -18 -12, -36 -8 Z"/>
+            </g>
+            <g>
+                <path fill="url(#stange)" d="M 108 0 q 3 -1, 6 0 l -6 216 Z" />
+            </g>
+        </g>
+    </g>
+    </g>
+</svg>

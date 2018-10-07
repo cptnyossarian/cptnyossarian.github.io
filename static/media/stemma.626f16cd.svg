@@ -4,8 +4,7 @@
     <!-- inkscape seems to require the (obsolete) `xlink:href` + above ns-declaration as opposed to simply `href` -->
     <style>
     svg {
-        background: hsl(24, 45%, 30%);
-        font-size: 48;
+        font-size: 48px;
         font-family: Pristina, Lora, serif;
     }
     .text-arco {
