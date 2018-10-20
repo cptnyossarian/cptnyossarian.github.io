@@ -1,6 +1,6 @@
 {
-  "main.css": "/static/css/main.1ffa1b55.chunk.css",
-  "main.js": "/static/js/main.c58b2b99.chunk.js",
+  "main.css": "/static/css/main.f39d3a69.chunk.css",
+  "main.js": "/static/js/main.cba141f6.chunk.js",
   "static/js/1.0012b563.chunk.js": "/static/js/1.0012b563.chunk.js",
   "runtime~main.js": "/static/js/runtime~main.229c360f.js",
   "static/media/stemma_INLINED.svg": "/static/media/stemma_INLINED.312c2c4f.svg",
@@ -9,6 +9,6 @@
   "static/media/stemma.svg": "/static/media/stemma.626f16cd.svg",
   "static/media/bandiere.svg": "/static/media/bandiere.91a21e5c.svg",
   "index.html": "/index.html",
-  "precache-manifest.a9ab36095e809aba742c340a4f79aa04.js": "/precache-manifest.a9ab36095e809aba742c340a4f79aa04.js",
+  "precache-manifest.de04b75705ddbba6b1a8dd56982d5d9a.js": "/precache-manifest.de04b75705ddbba6b1a8dd56982d5d9a.js",
   "service-worker.js": "/service-worker.js"
 }
