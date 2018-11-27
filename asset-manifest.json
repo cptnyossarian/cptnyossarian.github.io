@@ -1,6 +1,6 @@
 {
   "main.css": "/static/css/main.3e7c830c.chunk.css",
-  "main.js": "/static/js/main.bfe5efdb.chunk.js",
+  "main.js": "/static/js/main.20ac5e7b.chunk.js",
   "static/js/1.ecaf8d10.chunk.js": "/static/js/1.ecaf8d10.chunk.js",
   "runtime~main.js": "/static/js/runtime~main.229c360f.js",
   "static/media/stemma_INLINED.svg": "/static/media/stemma_INLINED.312c2c4f.svg",
@@ -8,6 +8,6 @@
   "static/media/site.css": "/static/media/bg.62e35452.jpg",
   "static/media/bandiere.svg": "/static/media/bandiere.91a21e5c.svg",
   "index.html": "/index.html",
-  "precache-manifest.6571d3347ee489e6dce6fca71a2b4a86.js": "/precache-manifest.6571d3347ee489e6dce6fca71a2b4a86.js",
+  "precache-manifest.026a9a488331df7330aa9fb66ce70dc6.js": "/precache-manifest.026a9a488331df7330aa9fb66ce70dc6.js",
   "service-worker.js": "/service-worker.js"
 }
