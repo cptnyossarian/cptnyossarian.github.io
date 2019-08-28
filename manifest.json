@@ -1,12 +1,12 @@
 {
   "name": "Italienisch Lernen - Debora Difonzo",
   "short_name": "deboradifonzo.de",
-  "description": null,
+  "description": "Italienisch Lernen – Debora Difonzo. Im Zentrum von Saarbrücken.",
   "dir": "auto",
   "lang": "en-US",
   "display": "standalone",
   "orientation": "any",
-  "start_url": "/?homescreen=1",
+  "start_url": "/",
   "background_color": "#fff",
   "theme_color": "#fff",
   "icons": [
