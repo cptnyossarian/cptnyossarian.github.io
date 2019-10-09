@@ -1,21 +1,22 @@
 {
   "files": {
     "main.css": "/static/css/main.bb292cb2.chunk.css",
-    "main.js": "/static/js/main.a7b65635.chunk.js",
+    "main.js": "/static/js/main.d13610f1.chunk.js",
     "runtime~main.js": "/static/js/runtime~main.7aec9319.js",
     "static/css/2.3b38d831.chunk.css": "/static/css/2.3b38d831.chunk.css",
-    "static/js/2.a4885ba8.chunk.js": "/static/js/2.a4885ba8.chunk.js",
+    "static/js/2.eb369e8e.chunk.js": "/static/js/2.eb369e8e.chunk.js",
     "index.html": "/index.html",
-    "precache-manifest.d5b1c87c6556101c3ab0092250af9323.js": "/precache-manifest.d5b1c87c6556101c3ab0092250af9323.js",
+    "precache-manifest.d70dd641610f3aed45f0890afbc64e38.js": "/precache-manifest.d70dd641610f3aed45f0890afbc64e38.js",
     "service-worker.js": "/service-worker.js",
     "static/media/bandiere.svg": "/static/media/bandiere.91a21e5c.svg",
     "static/media/bg.jpg": "/static/media/bg.62e35452.jpg",
-    "static/media/portrait.png": "/static/media/portrait.ebf04a79.png",
-    "static/media/stemma.png": "/static/media/stemma.ba546921.png",
-    "static/media/ufficio1.jpg": "/static/media/ufficio1.dd966f8d.jpg",
-    "static/media/ufficio2.jpg": "/static/media/ufficio2.a0add457.jpg",
-    "static/media/ufficio3.jpg": "/static/media/ufficio3.a552255c.jpg",
-    "static/media/ufficio4.jpg": "/static/media/ufficio4.995d84a5.jpg",
-    "static/media/ufficio5.jpg": "/static/media/ufficio5.b16ce959.jpg"
+    "static/media/portrait.d4.jpg": "/static/media/portrait.d4.b2633751.jpg",
+    "static/media/stemma.png": "/static/media/stemma.73324059.png",
+    "static/media/stemma.as-bg.png": "/static/media/stemma.as-bg.55b83395.png",
+    "static/media/ufficio1.d2.jpg": "/static/media/ufficio1.d2.e65bbb00.jpg",
+    "static/media/ufficio2.d2.jpg": "/static/media/ufficio2.d2.85798505.jpg",
+    "static/media/ufficio3.d2.jpg": "/static/media/ufficio3.d2.40e0fa21.jpg",
+    "static/media/ufficio4.d2.jpg": "/static/media/ufficio4.d2.e52e5191.jpg",
+    "static/media/ufficio5.d2.jpg": "/static/media/ufficio5.d2.f5139398.jpg"
   }
 }
