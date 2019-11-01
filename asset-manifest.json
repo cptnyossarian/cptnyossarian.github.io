@@ -1,12 +1,12 @@
 {
   "files": {
     "main.css": "/static/css/main.bb292cb2.chunk.css",
-    "main.js": "/static/js/main.1a7ad1aa.chunk.js",
-    "runtime~main.js": "/static/js/runtime~main.7aec9319.js",
-    "static/css/2.3b38d831.chunk.css": "/static/css/2.3b38d831.chunk.css",
-    "static/js/2.eb369e8e.chunk.js": "/static/js/2.eb369e8e.chunk.js",
+    "main.js": "/static/js/main.4ca8f21a.chunk.js",
+    "runtime-main.js": "/static/js/runtime-main.5ad10a83.js",
+    "static/css/2.c79e6b49.chunk.css": "/static/css/2.c79e6b49.chunk.css",
+    "static/js/2.ec011c04.chunk.js": "/static/js/2.ec011c04.chunk.js",
     "index.html": "/index.html",
-    "precache-manifest.5124343eb11b5bed6ec3aff508a353ce.js": "/precache-manifest.5124343eb11b5bed6ec3aff508a353ce.js",
+    "precache-manifest.86b2c807e28c1759b819c0c92ce11192.js": "/precache-manifest.86b2c807e28c1759b819c0c92ce11192.js",
     "service-worker.js": "/service-worker.js",
     "static/media/bandiere.svg": "/static/media/bandiere.91a21e5c.svg",
     "static/media/bg.jpg": "/static/media/bg.62e35452.jpg",
@@ -18,5 +18,12 @@
     "static/media/ufficio3.d2.jpg": "/static/media/ufficio3.d2.40e0fa21.jpg",
     "static/media/ufficio4.d2.jpg": "/static/media/ufficio4.d2.e52e5191.jpg",
     "static/media/ufficio5.d2.jpg": "/static/media/ufficio5.d2.f5139398.jpg"
-  }
+  },
+  "entrypoints": [
+    "static/js/runtime-main.5ad10a83.js",
+    "static/css/2.c79e6b49.chunk.css",
+    "static/js/2.ec011c04.chunk.js",
+    "static/css/main.bb292cb2.chunk.css",
+    "static/js/main.4ca8f21a.chunk.js"
+  ]
 }
