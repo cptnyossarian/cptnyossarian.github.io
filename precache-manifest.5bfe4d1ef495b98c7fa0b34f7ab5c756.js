@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "e4354aff192c9adfb50953252b95b53c",
+    "revision": "e1c56fa1d640a3482833fcbe26412b95",
     "url": "/index.html"
   },
   {
-    "revision": "950856c26619a8d1d344",
+    "revision": "87dded4e37c4db76f3d8",
     "url": "/static/css/2.7bfecc85.chunk.css"
   },
   {
-    "revision": "950856c26619a8d1d344",
-    "url": "/static/js/2.991dac7f.chunk.js"
+    "revision": "87dded4e37c4db76f3d8",
+    "url": "/static/js/2.9b621b72.chunk.js"
   },
   {
     "revision": "b9f9759b9b1285134e0534121ec7f9b0",
-    "url": "/static/js/2.991dac7f.chunk.js.LICENSE"
+    "url": "/static/js/2.9b621b72.chunk.js.LICENSE"
   },
   {
-    "revision": "ad7104367eae06cf1350",
-    "url": "/static/js/main.8c73c5e9.chunk.js"
+    "revision": "9888fc988c0ec7ab84d3",
+    "url": "/static/js/main.e5651a43.chunk.js"
   },
   {
     "revision": "7948a54bb83a073f616f",
@@ -30,6 +30,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "62e35452e3c922a88efacf8b396c94e4",
     "url": "/static/media/bg.62e35452.jpg"
+  },
+  {
+    "revision": "1190eb76d26f449106bbc70cc4f1ce05",
+    "url": "/static/media/debora-videocall.d2.1190eb76.jpg"
   },
   {
     "revision": "b2633751ef2d9d63541cef04878d52d9",
