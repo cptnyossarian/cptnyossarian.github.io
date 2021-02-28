@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.js": "/static/js/main.8a785ea5.chunk.js",
+    "main.js": "/static/js/main.91554f63.chunk.js",
     "runtime-main.js": "/static/js/runtime-main.e357b16a.js",
     "static/css/2.5c3c73ed.chunk.css": "/static/css/2.5c3c73ed.chunk.css",
     "static/js/2.5cade5db.chunk.js": "/static/js/2.5cade5db.chunk.js",
@@ -12,16 +12,38 @@
     "static/media/portrait.d4.877e2996.jpg": "/static/media/portrait.d4.877e2996.jpg",
     "static/media/stemma.88d2cda5.png": "/static/media/stemma.88d2cda5.png",
     "static/media/stemma.as-bg.9ed68bea.png": "/static/media/stemma.as-bg.9ed68bea.png",
-    "static/media/ufficio1.d2.1daeac3a.jpg": "/static/media/ufficio1.d2.1daeac3a.jpg",
-    "static/media/ufficio2.d2.aa8af599.jpg": "/static/media/ufficio2.d2.aa8af599.jpg",
-    "static/media/ufficio3.d2.ced4afda.jpg": "/static/media/ufficio3.d2.ced4afda.jpg",
-    "static/media/ufficio4.d2.1d3b7c6f.jpg": "/static/media/ufficio4.d2.1d3b7c6f.jpg",
-    "static/media/ufficio5.d2.1a3bf269.jpg": "/static/media/ufficio5.d2.1a3bf269.jpg"
+    "static/media/ufficio01.png.65877bfa.jpg": "/static/media/ufficio01.png.65877bfa.jpg",
+    "static/media/ufficio02.png.5a7580fe.jpg": "/static/media/ufficio02.png.5a7580fe.jpg",
+    "static/media/ufficio02.png.c9983524.jpg": "/static/media/ufficio02.png.c9983524.jpg",
+    "static/media/ufficio03.png.1e101172.jpg": "/static/media/ufficio03.png.1e101172.jpg",
+    "static/media/ufficio04.png.5976f624.jpg": "/static/media/ufficio04.png.5976f624.jpg",
+    "static/media/ufficio04.png.668114f8.jpg": "/static/media/ufficio04.png.668114f8.jpg",
+    "static/media/ufficio05.png.481048d7.jpg": "/static/media/ufficio05.png.481048d7.jpg",
+    "static/media/ufficio05.png.e3517354.jpg": "/static/media/ufficio05.png.e3517354.jpg",
+    "static/media/ufficio06.png.84aaab63.jpg": "/static/media/ufficio06.png.84aaab63.jpg",
+    "static/media/ufficio07.png.5f26f13b.jpg": "/static/media/ufficio07.png.5f26f13b.jpg",
+    "static/media/ufficio08.png.6e690b36.jpg": "/static/media/ufficio08.png.6e690b36.jpg",
+    "static/media/ufficio08.png.89b183d2.jpg": "/static/media/ufficio08.png.89b183d2.jpg",
+    "static/media/ufficio09.png.cb0160d3.jpg": "/static/media/ufficio09.png.cb0160d3.jpg",
+    "static/media/ufficio10.png.530b1922.jpg": "/static/media/ufficio10.png.530b1922.jpg",
+    "static/media/ufficio10.png.7f3d9290.jpg": "/static/media/ufficio10.png.7f3d9290.jpg",
+    "static/media/ufficio11.png.7b3fd9e8.jpg": "/static/media/ufficio11.png.7b3fd9e8.jpg",
+    "static/media/ufficio12.png.22ba13cb.jpg": "/static/media/ufficio12.png.22ba13cb.jpg",
+    "static/media/ufficio13.png.0b43e56e.jpg": "/static/media/ufficio13.png.0b43e56e.jpg",
+    "static/media/ufficio13.png.dea5ab48.jpg": "/static/media/ufficio13.png.dea5ab48.jpg",
+    "static/media/ufficio14.png.b657c6f5.jpg": "/static/media/ufficio14.png.b657c6f5.jpg",
+    "static/media/ufficio14.png.cf37d34b.jpg": "/static/media/ufficio14.png.cf37d34b.jpg",
+    "static/media/ufficio15.png.c776aee0.jpg": "/static/media/ufficio15.png.c776aee0.jpg",
+    "static/media/ufficio15.png.fbda45c8.jpg": "/static/media/ufficio15.png.fbda45c8.jpg",
+    "static/media/ufficio16.png.834ddd1f.jpg": "/static/media/ufficio16.png.834ddd1f.jpg",
+    "static/media/ufficio16.png.a972dea1.jpg": "/static/media/ufficio16.png.a972dea1.jpg",
+    "static/media/ufficio17.png.23087eca.jpg": "/static/media/ufficio17.png.23087eca.jpg",
+    "static/media/ufficio17.png.fecd0396.jpg": "/static/media/ufficio17.png.fecd0396.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.e357b16a.js",
     "static/css/2.5c3c73ed.chunk.css",
     "static/js/2.5cade5db.chunk.js",
-    "static/js/main.8a785ea5.chunk.js"
+    "static/js/main.91554f63.chunk.js"
   ]
 }
