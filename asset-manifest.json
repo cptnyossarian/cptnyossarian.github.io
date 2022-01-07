@@ -1,11 +1,15 @@
 {
   "files": {
-    "main.js": "/static/js/main.08954e2e.chunk.js",
-    "runtime-main.js": "/static/js/runtime-main.e357b16a.js",
-    "static/css/2.5c3c73ed.chunk.css": "/static/css/2.5c3c73ed.chunk.css",
-    "static/js/2.099ffd85.chunk.js": "/static/js/2.099ffd85.chunk.js",
+    "main.js": "/static/js/main.c2fddadf.chunk.js",
+    "main.js.map": "/static/js/main.c2fddadf.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.d22c7795.js",
+    "runtime-main.js.map": "/static/js/runtime-main.d22c7795.js.map",
+    "static/css/2.6cd54866.chunk.css": "/static/css/2.6cd54866.chunk.css",
+    "static/js/2.d26b8093.chunk.js": "/static/js/2.d26b8093.chunk.js",
+    "static/js/2.d26b8093.chunk.js.map": "/static/js/2.d26b8093.chunk.js.map",
     "index.html": "/index.html",
-    "static/js/2.099ffd85.chunk.js.LICENSE.txt": "/static/js/2.099ffd85.chunk.js.LICENSE.txt",
+    "static/css/2.6cd54866.chunk.css.map": "/static/css/2.6cd54866.chunk.css.map",
+    "static/js/2.d26b8093.chunk.js.LICENSE.txt": "/static/js/2.d26b8093.chunk.js.LICENSE.txt",
     "static/media/bandiere.97064e7e.svg": "/static/media/bandiere.97064e7e.svg",
     "static/media/bg.f65da1fd.jpg": "/static/media/bg.f65da1fd.jpg",
     "static/media/debora-videocall.d2.d3c78960.jpg": "/static/media/debora-videocall.d2.d3c78960.jpg",
@@ -41,9 +45,9 @@
     "static/media/ufficio17.png.fecd0396.jpg": "/static/media/ufficio17.png.fecd0396.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.e357b16a.js",
-    "static/css/2.5c3c73ed.chunk.css",
-    "static/js/2.099ffd85.chunk.js",
-    "static/js/main.08954e2e.chunk.js"
+    "static/js/runtime-main.d22c7795.js",
+    "static/css/2.6cd54866.chunk.css",
+    "static/js/2.d26b8093.chunk.js",
+    "static/js/main.c2fddadf.chunk.js"
   ]
 }
