@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.7ba90b1d.css",
-    "main.js": "/static/js/main.fc3a0259.js",
+    "main.css": "/static/css/main.07a0fbc7.css",
+    "main.js": "/static/js/main.72202aa8.js",
     "static/media/bg.jpg": "/static/media/bg.f65da1fd794080b5b93d.jpg",
     "static/media/stemma.as-bg.png": "/static/media/stemma.as-bg.9ed68bea8a1af042cbec.png",
     "static/media/ufficio15.png.jpg": "/static/media/ufficio15.png.c776aee069e0a0062968.jpg",
@@ -28,7 +28,7 @@
     "static/media/bandiere.svg": "/static/media/bandiere.97064e7ebf07491a099d90e18fdd5468.svg"
   },
   "entrypoints": [
-    "static/css/main.7ba90b1d.css",
-    "static/js/main.fc3a0259.js"
+    "static/css/main.07a0fbc7.css",
+    "static/js/main.72202aa8.js"
   ]
 }
